@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iteme Receipt</title>
+
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div class="flex flex-col items-center max-w-md mx-auto w-full">
+        <div class="flex bg-rouge justify-between w-full h-rouge">
+            <div class="flex flex-col items-center">
+                <img src="./assets/logo.svg" width="150px" height="96px" alt="">
+                <img src="./assets/ecobank.svg" width="96px" height="64px" alt="">
+            </div>
+
+            <h1 class="uppercase text-xl p-0.5 pt-4 text-white font-bold">Receipt</h1>
+        </div>
+
+        <div class="flex justify-between w-full mt-8">
+            <!-- First section -->
+            <div class="">
+                <!-- customer -->
+                <div class="flex items-start px-1">
+                    <img src="./assets/person-icon.svg" width="24px" height="24px" alt="">
+                    <div class="ml-1/2">
+                        <h4 class="m-0">Customer:</h4>
+                        <p id="customerName" class="m-0">Uwase Samila</p>
+                    </div>
+                </div>
+
+                <!-- rra -->
+                <div class="flex items-start mt-4 px-1">
+                    <img src="./assets/rra-logo.svg" width="24px" height="24px" alt="">
+                    <div class="ml-1/2">
+                        <h4 class="m-0">RRA:</h4>
+                        <p class="m-0">1113709146</p>
+                    </div>
+                </div>
+
+                <!-- Reference -->
+                <div class="flex items-start mt-4 px-1">
+                    <img src="./assets/person-icon.svg" width="24px" height="24px" alt="" class="invisible">
+                    <div class="ml-1/2">
+                        <h4 class="m-0">Reference-No:</h4>
+                        <p class="m-0">A22341001338389</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Second section -->
+            <div class="">
+                <!-- customer -->
+                <div class="flex items-start px-1">
+                    <img src="./assets/person-icon.svg" width="24px" height="24px" alt="">
+                    <div class="ml-1/2">
+                        <h4 class="m-0">Iteme Agent:</h4>
+                        <p class="m-0">Oliver Heinen</p>
+                    </div>
+                </div>
+
+                <!-- rra -->
+                <div class="flex items-start mt-4 px-1">
+                    <img src="./assets/contact-icon.svg" width="24px" height="24px" alt="">
+                    <div class="ml-1/2">
+                        <h4 class="m-0">Agent's Number:</h4>
+                        <p class="m-0">0781926669</p>
+                    </div>
+                </div>
+
+                <!-- Reference -->
+                <div class="flex items-start mt-4 px-1">
+                    <img src="./assets/person-icon.svg" width="24px" height="24px" alt="" class="invisible">
+                    <div class="ml-1/2">
+                        <h4 class="m-0">Transaction-Id:</h4>
+                        <p class="m-0">rwgFykjc9S1dD2vG</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Third section -->
+            <div class="">
+                <!-- customer -->
+                <div class="flex items-start px-1">
+                    <img src="./assets/calendar-icon.png" width="24px" height="24px" alt="">
+                    <div class="ml-1/2">
+                        <h4 class="m-0">Date:</h4>
+                        <p class="m-0">07.12.2022</p>
+                    </div>
+                </div>
+
+                <!-- rra -->
+                <div class="flex items-start mt-4 px-1">
+                    <img src="./assets/clock-icon.svg" width="24px" height="24px" alt="">
+                    <div class="ml-1/2">
+                        <h4 class="m-0">Time:</h4>
+                        <p class="m-0">13:51</p>
+                    </div>
+                </div>
+
+                <!-- Reference -->
+                <div class=" invisible flex items-start mt-4 px-1">
+                    <img src="./assets/person-icon.svg" width="24px" height="24px" alt="" class="invisible">
+                    <div class="ml-1/2">
+                        <h4 class="m-0">Reference-No:</h4>
+                        <p class="m-0">A22341001338389</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Service type -->
+        <div class="flex items-center justify-between w-full mt-8">
+            <p class="px-2">Service Type:</p>
+            <p class="px-2">Tax Payment</p>
+        </div>
+
+        <!-- Service type -->
+        <div class="bg-light-gray flex items-center justify-between w-full">
+            <p class="font-bold px-2">Position</p>
+            <p class="font-bold px-2 p-0\.5 ">Price</p>
+        </div>
+
+        <div class="flex items-center justify-between w-full">
+            <p class="px-2">Amount:</p>
+            <p class="px-2">4230.00 RFW</p>
+        </div>
+        <div class="flex items-center justify-between w-full">
+            <p class="px-2">Fees:</p>
+            <p class="px-2">4230.00 RFW</p>
+        </div>
+        <div class="flex items-center justify-between w-full">
+            <p class="px-2">Taxes:</p>
+            <p class="px-2">4230.00 RFW</p>
+        </div>
+
+        <div class="flex bg-bottom-rouge justify-between w-full h-rouge">
+            <div class="flex flex-col ml-auto justify-center p-0.5">
+                <p class="uppercase text-xl text-white font-bold">Payment received.</p>
+                <p class="uppercase text-xl text-white m-0 font-bold">Thank you very much!</p>
+            </div>
+        </div>
+    </div>
+    <script src="index.js" ></script>
+</body>
+</html>
