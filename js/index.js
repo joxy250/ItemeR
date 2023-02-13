@@ -21,10 +21,6 @@ const customerReferenceNo = document.getElementById("customerReferenceNo");
 const agentName = document.getElementById("agentName");
 const agentContact = document.getElementById("agentContact");
 const agentId = document.getElementById("agentId");
-const getFormatedCurrentDate()=document.getElementById("getFormatedCurrentDate()")
-
-
-
 
 
 
@@ -37,10 +33,6 @@ agentName.textContent=data.agent.agentName;
 agentContact.textContent=data.agent.agentContact;
 agentId.textContent=data.agent.agentId;
 
-console.log("date", getFormatedCurrentDate())
+
 
 })
-function getFormatedCurrentDate(){
-    const date = new Date();
-    return `${date.getDay()}.${date.getFullYear()}`
-}
